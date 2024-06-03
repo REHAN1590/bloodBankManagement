@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  /* overflow: hidden; */
+}
+.form-banner img{
+  height: 105.5%;
+  width: 150%;
+}
+.form-container{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  min-height: 100vh;
+}
+.form-check-label{
+  color: azure;
+  font: bold;
+  text-shadow: aliceblue;
+}
+/* .br{
+  color:rgba(0, 0, 0, 0.82);
+  font: bold;
+  /* font-weight: bold; */
+  /* font-style: normal; */
+  /* text-shadow: 2px 2px 4px rgba(0,0,0,0.5); */
+  /* font-size: 20px; */
+  /* color: rgb(227, 227, 7); */
+  /* mix-blend-mode: difference; */
+  /* width: 200px; */
+  /* height: 100px; */
+  /* border: 2px solid #fbf9f9; */
+  /* padding: 8px; */
+  /* font-family: Impact, sans-serif;
+} */ */
+.br {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  color: #000000; /* Dark professional color */
+  font-family: 'Impact', sans-serif; /* Impact font for impact! */
+  padding: 8px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0); /* Subtle text shadow */
+  background-color: #522b2b; /* Light background for contrast */
+  border-radius: 5px; /* Rounded corners for a modern look */
+  border: 2px solid #cccccc; /* Light border for separation */
+  transition: all 0.3s ease; /* Smooth transition for interactive feel */
+
+  /* Additional Effects */
+  mix-blend-mode: difference; /* Blend mode for standout effect */
+  box-shadow: 0 2px 4px rgb(0, 0, 0); /* Soft box shadow for depth */
+
+  /* UI/UX Improvements */
+  cursor: pointer; /* Cursor indicates interactivity */
+  user-select: none; /* Prevent text selection */
+  outline: none; /* Remove default focus outline */
+}
+
+/* Hover State */
+.br:hover {
+  background-color: #eaeaea; /* Lighter background on hover */
+  color: #000000; /* Darker text color on hover */
+}
+
+.form-label{
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font: bold;
+
+}
+.form-check-label{
+    margin-bottom: 0 !important;
+    color: #0d0101;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+/* =============
+====== loader 
+=============== */
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #fff;
+  border-bottom-color: #ff3d00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+@keyframes rotation {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+/* =================navbar=============== */
+.navbar{
+  background-color: #a0bfb9 !important;
+  color: rgb(59, 208, 249) !important;
+}
+.nav-link,.navbar-brand:hover{
+  /* background-color: #80b48c !important; */
+  /* background-image: url(Nav\ Bar\ Color\ Palette\ -\ color-hex.com.png); */
+  color: rgb(14, 14, 14) !important;
+  
+}

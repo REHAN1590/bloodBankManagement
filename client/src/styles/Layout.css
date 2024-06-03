@@ -1,0 +1,98 @@
+.sidebar {
+  height: 100vh;
+  background-color: #a28089;
+  box-shadow: 1 1 5px rgba(8, 8, 8, 0.2); /* Enhanced box shadow */
+  color: #ffffff; /* White text */
+  padding-top: 20px; /* Adjusted padding for better alignment */
+}
+
+.menu {
+  padding-top: 20px; /* Reduced padding for better spacing */
+  font-size: 30px; /* Larger font size */
+}
+
+.menu-item {
+  padding: 25px 20px; /* Increased padding for better touch target */
+}
+
+.menu-item a {
+  color: #ffffff; /* White text */
+  text-decoration: solid;
+  font-size: 1.2rem;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.menu-item i {
+  font-size: 1.3rem;
+  margin-right: 10px; /* Adjusted margin */
+  color: #ed4646; /* White text */
+}
+
+.active {
+  background-color: #ffffffa5; /* White background for active item */
+  padding: 15px 20px; /* Adjusted padding */
+  margin-top: 25px;
+  border-radius: 20px; /* Rounded corners for active item */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.active a,
+.active i {
+  color: #2e3200; /* Dark color for active text and icons */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th ,
+.table td{
+  border: 1px solid #2d545e;
+  padding: 8px;
+  text-align: left;
+  font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(28, 28, 29);
+}
+/* }
+.table td{
+  border:  2px black;
+  padding: 10px;
+  text-align: left;
+
+} */
+.table th,
+.table td {
+  border: 1.8px solid #000000;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #2d545e;
+  color: #141313; /* White text color */
+  font-weight: bold; /* Font weight instead of font-style */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table td {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+
+.table th {
+  background-color: #de7979;
+}
+
+.table tr:nth-child(even) {
+  background-color: #9cd3d3;
+}
+.table tr:nth-child(odd) {
+  background-color: #f9c5bd;
+}
+
+.table tr:hover {
+  background-color: #3623ff;
+}

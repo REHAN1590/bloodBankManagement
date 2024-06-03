@@ -1,0 +1,84 @@
+/* app.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./styles/blood-draw-2722940.jpg);
+    background-size: 1500px;
+    /* background-size: contain; */
+    background-position: center;
+  }
+ 
+  /* Toast container */
+  .Toastify__toast-container {
+    z-index: 9999;
+  }
+  
+  /* Page layout */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+/* //background-image: url(Nav\ Bar\ Color\ Palette\ -\ color-hex.com.png); */
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #b19b9b;
+    color: #a0bfb9;
+    padding: 10px 0;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Add shadow for depth */
+  
+  }
+  
+  .navbar ul:hover {
+    list-style: square;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar ul li:hover a {
+    color: #ccc;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar ul li a:hover {
+    color: #f34e4e;
+  }
+  
+  /* Table styles
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  } */
+  
+  /* .table th {
+    background-color: #f34e4e;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+  } */
+  
+  /* .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tr:hover {
+    background-color: #f2f2f2;
+  }
+   */
