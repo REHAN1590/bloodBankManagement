@@ -14,31 +14,13 @@ const AdminHome = () => {
           <h3>Manage Blood Bank App </h3>
           <hr />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-            explicabo animi blanditiis incidunt dicta quia, quibusdam facere
-            corporis! Dolores, reprehenderit cum sed repellat laudantium
-            architecto natus est nostrum accusamus, odio aspernatur minima
-            fugiat quam molestiae nisi. Temporibus impedit dolorem quia.
-            Distinctio modi non excepturi illo odio voluptatum quae nostrum a
-            temporibus sequi! Explicabo, quasi consequatur ad qui quos labore
-            distinctio voluptates alias nostrum ab dicta aspernatur molestias
-            adipisci quibusdam error ipsa. Totam, tenetur dolores eaque tempora
-            officiis deserunt assumenda? Rerum nemo est nihil laudantium
-            necessitatibus. Possimus, voluptatem voluptates blanditiis quas
-            aspernatur, quam, quaerat minus maiores ipsam sint perferendis
-            dolor. Dignissimos voluptatem doloribus sint in quis omnis, atque
-            neque praesentium voluptatum suscipit. Quas esse, accusantium maxime
-            obcaecati iure officiis aperiam minus alias quod cum quos qui
-            voluptatibus, numquam, ad id dolore odit! Minima laudantium sunt,
-            explicabo nesciunt quos voluptatibus qui libero eligendi praesentium
-            debitis obcaecati similique assumenda nobis labore totam dolore
-            perferendis adipisci fugiat quibusdam tempore doloremque voluptatum
-            accusantium. Accusamus, incidunt sequi. Esse sunt officia fuga,
-            officiis saepe tempora repellat suscipit aliquid cupiditate
-            perferendis, asperiores architecto molestiae rem iste eaque
-            molestias reiciendis. Laborum modi asperiores, reprehenderit
-            assumenda numquam, vitae exercitationem illum nesciunt, dolorum
-            deleniti accusamus consequatur id. Necessitatibus dolore ad fugit?
+            As an administrator of our Blood Bank App, you play a vital role in ensuring the smooth operation of our platform. Your dedication and expertise are crucial in managing the day-to-day activities of our app, from overseeing blood donations to coordinating with hospitals and medical facilities. Our app is designed to streamline the process of blood donation, making it easier for donors to register, schedule appointments, and track their donations. As an admin, you have access to a range of features and tools that enable you to monitor and manage the entire process, from donor registration to blood storage and distribution.
+
+            With our app, you can easily track donor information, manage blood inventory, and generate reports to help you make informed decisions. You can also use our app to communicate with donors, hospitals, and other stakeholders, ensuring that everyone is informed and up-to-date on the latest developments. Our app is designed to be user-friendly and intuitive, making it easy for you to navigate and perform your duties with ease.
+
+            As an admin, you are also responsible for ensuring the security and integrity of our app. This includes managing user access, monitoring system activity, and implementing security protocols to prevent unauthorized access or data breaches. Our app is built with security in mind, and we have implemented robust measures to protect sensitive information and prevent cyber threats.
+
+            We are committed to providing you with the tools and resources you need to succeed in your role. Our support team is available 24/7 to assist you with any questions or issues you may have. We also provide regular updates and training to ensure that you are always up-to-date on the latest features and best practices. Thank you for your hard work and dedication to our Blood Bank App. Together, we can make a difference in the lives of patients and donors alike.
           </p>
         </div>
       </div>
